@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Week 2 - Advanced HTML5: Enhancing Content & Building Forms">
+
+    <title>Week 2 - Advanced HTML5</title>
+    <link rel="stylesheet" href="style-plp.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- ordered list with roman numerals -->
+        <section class="main-content">
+            <div class="box">
+
+                <h2>Ordered list with Roman numerals</h2>
+
+                <ol type="i">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Python</li>
+                    <li>Git and GitHub</li>
+                    <li>Bash</li>
+                </ol>
+            </div>
+
+        </section>
+        
+        <!-- Added an external image from pexels.com  -->
+        <section class="main-content">
+            <div class="box">
+                <h2>External image from pexels.com</h2>
+                <img src="https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="Photo by Andrew Neel from Pexels">
+                <legend>Photo by Andrew Neel from Pexels: <a href="https://www.pexels.com/@andrew/" target="_blank">Read
+                        more</a></legend>
+            </div>
+        </section>
+
+        <!-- table of 5 contacts with; name, address, mobile and emails -->
+        <section class="main-content">
+            <div class="box">
+                <table>
+                    <h2>Contacts Table</h2>
+                    <tr>
+                        <th>Name</th>
+                        <th>Last Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+
+                    <tr>
+                        <td>Simon</td>
+                        <td>Ndlovu</td>
+                        <td>61 Victoria Avenue</td>
+                        <td>068 447 7405</td>
+                        <td>simontable@table.com</td>
+
+                    </tr>
+                    <tr>
+                        <td>Mbali</td>
+                        <td>Cwera</td>
+                        <td>254 LandView</td>
+                        <td>074 562 4412</td>
+                        <td>mbalicw@gmail.com</td>
+
+                    </tr>
+                    <tr>
+                        <td>Steven</td>
+                        <td>Rhodes</td>
+                        <td>1 Zone 3</td>
+                        <td>011 584 3214</td>
+                        <td>steverhodes@table.com</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>George</td>
+                        <td>Smit</td>
+                        <td>52 Duncanville</td>
+                        <td>073 658 4421</td>
+                        <td>georges@table.com</td>
+
+                    </tr>
+                    <tr>
+                        <td>Lovedale</td>
+                        <td>Kelvin</td>
+                        <td>5 Thodes view</td>
+                        <td>063 558 4658</td>
+                        <td>lovedale.kel@table.com</td>
+
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- <legend>Student Registration Form</legend>
+        Name, email, password, and date fields.A dropdown, radio buttons, and checkboxes.
+        Proper labels and placeholders.Required fields and validation attributes
+        I used div to clear and structure the forms
+        -->
+        <section class="main-content">
+            <h2>Registration Form </h2>
+            <form action="" method="POST">
+                <div class="register-form">
+
+                    <div class="form-box">
+                        <label for="name">Full Name</label>
+                        <input type="text" placeholder="Your Full Ndlovu" id="full-name" name="full-name" required>
+
+                    </div>
+                    <div class="form-box">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter your email address" id="" name="" required>
+
+                    </div>
+                    <div class="form-box">
+                        <label for="password">Password</label>
+                        <input type="text" placeholder="Enter your password" id="" name="" required>
+
+                    </div>
+                    <div class="form-box">
+                        <legend>Gender</legend>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="">
+                        <label for="female">Female</label>
+                        <input type="radio" name="" id="">
+
+                    </div>
+                    <div class="form-box">
+                        <label for="date">Date of Birth</label>
+                        <input type="date" placeholder="Enter your date of Birth" id="date" name="date" required>
+
+                    </div>
+                    <div class="form-box">
+                        <label for="numerals">Mobile Number</label>
+                        <input type="" name="number" id="number" placeholder="Enter your Mobile Number">
+                    </div>
+                    <div class="form-box">
+                        <label for="numerals">ID Number</label>
+                        <input type="number" name="number" id="number" placeholder="Enter your ID Number">
+
+                    </div>
+                    <div class="form-box">
+                        <legend>Birth Country</legend>
+                        <select name="country" id="country">
+                            <option value="sa">South Africa</option>
+                            <option value="nigeria">Nigeria</option>
+                            <option value="kenya">Kenya</option>
+                            <option value="mali">Mali</option>
+                            <option value="drc">Republic Democratic of Congo</option>
+                            <option value="zim">Zimbabwe</option>
+                            <option value="lesotho">Lesotho</option>
+                            <option value="swazi">SwaziLand</option>
+                        </select>
+                    </div>
+
+                    <div class="form-box">
+                        <h2>Appled Course</h2>
+
+                        <label for="html">HTML</label>
+                        <input type="checkbox" name="" id="" value="HTML">
+
+                        <label for="css">CSS</label>
+                        <input type="checkbox" name="css" id="" value="CSS">
+
+                        <label for="git">Git and GitHub</label>
+                        <input type="checkbox" name="git" id="" value="Git and GitHub">
+
+                        <label for="python">Python</label>
+                        <input type="checkbox" name="python" id="" value="Python">
+
+                        <label for="java">Java Development</label>
+                        <input type="checkbox" name="java" id="" value="Java Development">
+                    </div>
+
+                    <button type="submit" class="btn">Submit</button>
+
+
+
+                </div>
+
+            </form>
+        </section>
+
+    </div>
+</body>
+
+</html>

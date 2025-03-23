@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #fff;
+}
+
+body{
+    background-color: #636363c6;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+
+.main-content{
+    padding: 0 .7em;
+}
+
+.main-content .box{
+    padding: 0 1em;
+    /* border: 1px solid #f4cd06; */
+}
+
+.main-content .box ol{
+    padding-left: 2em;
+}
+
+.main-content .box table, th, tr, td{
+    border: 2px solid rgb(19, 25, 21);
+    padding: .7em 0 ;
+}
+
+td{
+    font-size: 13.5pt;
+    text-align: left;
+    padding-left: .7em  ;
+}
+
+.main-content .register-form .form-box{
+    padding: .2em;
+    /* border: 1px solid sandybrown; */
+}
+
+.register-form .form-box label, input, legend, select{
+padding: 0 1em;
+color: #000;
+}
+
+option,
+button.btn{
+    color: #000;
+    padding: .5em;
+    font-weight: 400;
+    font-size: 12pt;
+    
+}
